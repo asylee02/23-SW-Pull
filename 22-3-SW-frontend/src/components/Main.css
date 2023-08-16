@@ -1,0 +1,40 @@
+#myStream{
+  width:800px;
+  text-align: center;
+}
+
+#confirm{
+  text-align: center;
+  width:800px;
+  height: 400px;
+  position: absolute;
+  left:50%;
+  transform: translate(-50%);
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  padding-top:40px;
+  box-shadow: 10px 10px 5px 0px rgba(180,180,180,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(180,180,180,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(180,180,180,0.75);
+  
+}
+#confirm>button{
+}
+
+#call{
+  position: relative;
+  z-index: 10;
+}
+
+#confirm_button>button{
+  margin-left:10px;
+  margin-right:10px;
+}
+#call{
+  width:1080px;
+  text-align: center;
+}
+#videos{
+  display:flex;
+  justify-content: space-around;
+}
