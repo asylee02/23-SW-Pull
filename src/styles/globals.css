@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/variable/pretendardvariable.css');
+
+body {
+  font-family: 'Pretendard Variable', Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: #F8FAFC;
+}
